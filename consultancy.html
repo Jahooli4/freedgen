@@ -1,266 +1,323 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta
-            name="description"
-            content="A collaborative spell submission blog."
-        />
-        <!-- Bootstrap CSS -->
 
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-            crossorigin="anonymous"
-        />
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"
-        ></script>
-        <!--Favicon-->
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="static/images/apple-touch-icon.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="static/images/favicon-32x32.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="static/images/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-            rel="stylesheet"
-        />
-        <!-- Custom CSS-->
-        <link rel="stylesheet" href="assets/css/style.css" />
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="A collaborative spell submission blog." />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet" />
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>FreedGen</title>
+</head>
+<!-- SITE BODY -->
 
-        <title>FreedGen</title>
-    </head>
-    <!-- SITE BODY -->
-    <body>
-        <header class="site-header">
-            <!-- NAV BAR -->
-            <nav id="navigation" class="navbar navbar-expand-md sticky-top">
-                <div class="container">
-                    <!-- LOGO -->
-                    <a class="navbar-brand me-4" href="index.html">
-                        <img
-                            class="logo-img"
-                            src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775483768/FreedGenLogo_hlcqdc.png"
-                        />
-                    </a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarToggle"
-                    >
-                        <span style="font-size: 2rem; color: #28a745">☰</span>
-                    </button>
-                    <!-- LEFT SIDE NAV -->
-                    <div class="collapse navbar-collapse" id="navbarToggle">
-                        <div class="navbar-nav me-auto h5">
-                            <a class="nav-item nav-link" href="services.html"
-                                >Services</a
-                            >
-                            <a class="nav-item nav-link" href="consultancy.html"
-                                >Consultancy</a
-                            >
-                            <a class="nav-item nav-link" href="Development.html"
-                                >Development</a
-                            >
-                            <a class="nav-item nav-link" href="about.html"
-                                >About</a
-                            >
-                        </div>
-                        <!-- RIGHT SIDE NAV -->
-                        <div class="navbar-nav">
-                            <a
-                                href="contact"
-                                class="contact-button h5 mx-auto my-auto"
-                                >Contact</a
-                            >
-                        </div>
+<body>
+    <header class="site-header">
+        <!-- NAV BAR -->
+        <nav id="navigation" class="navbar navbar-expand-md sticky-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a class="navbar-brand me-4" href="index.html">
+                    <img class="logo-img"
+                        src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775483768/FreedGenLogo_hlcqdc.png" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+                    <span style="font-size: 2rem; color: #28a745">☰</span>
+                </button>
+                <!-- LEFT SIDE NAV -->
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <div class="navbar-nav me-auto h5">
+                        <a class="nav-item nav-link" href="services.html">Services</a>
+                        <a class="nav-item nav-link current-page" href="consultancy.html">Consultancy</a>
+                        <a class="nav-item nav-link" href="development.html">Development</a>
+                        <a class="nav-item nav-link" href="about.html">About</a>
+                    </div>
+                    <!-- RIGHT SIDE NAV -->
+                    <div class="navbar-nav">
+                        <a href="contact.html"
+                            class="contact-button text-decoration-none shadow-contact rounded h5 mx-auto my-auto">Contact</a>
                     </div>
                 </div>
-            </nav>
-        </header>
-
-        <div class="container">
-            <div class="row">
-                <div class="col mx-auto text-center mt-3 mb-4">
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row g-0 mb-3">
+            <div class="col hero-img-wrapper">
+                <img aria-label="solar panel field" loading="lazy" alt=""
+                    src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775764164/dji_fly_20241031_090250_954_1730365379528_photo_optimized_tjhkif.jpg"
+                    style="width: 100%; height: 40vh; object-fit: cover" />
+                <div class="overlay-2"></div>
+                <div class="col-10 text-center mx-auto hero-text">
                     <h2>Pre-Construction & Logistics Consultancy</h2>
                 </div>
             </div>
-            <div class="row mt-3">
-                <div class="col-12 col-md-6 order-1 order-md-2 mx-auto">
-                    <p class="fs-5 fw-bold">
-                        Plan Solar Projects Properly - Before Construction
-                        Begins
-                    </p>
-                    <p>
-                        Many solar projects are designed to look efficient on
-                        paper – but once construction begins, real world
-                        challenges quickly expose weaknesses in planning.
-                    </p>
-                    <p>
-                        Without practical, construction-led input early in the
-                        process, projects often suffer from:
-                    </p>
-                    <ul>
-                        <li>
-                            Inefficient sitelayouts that slow down installation
-                        </li>
-                        <li>Poor material flow</li>
-                        <li>causing crews to wait on deliveries</li>
-                        <li>
-                            Congested access routes and delivery bottlenecks
-                        </li>
-                        <li>Misplaced compounds and storage areas</li>
-                    </ul>
-                    <p>
-                        These issues lead directly to delays, increased costs,
-                        and reduced productivity on site. FreedGen helps
-                        eliminate these risks by ensuring projects are planned
-                        with real construction conditions in mind, not just
-                        design assumptions.
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 order-2 order-md-1">
-                    <img
-                        aria-label=""
-                        loading="lazy"
-                        alt=""
-                        src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775813180/TapeMeasure_dzuy0e.png"
-                        class="img-fluid rounded"
-                        style="width: 100%; height: 80vh; object-fit: cover"
-                    />
-                </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-3 align-items-stretch">
+            <div class="col-12 col-md-6 order-1 order-md-2 mx-auto">
+                <p class="fs-5 fw-bold">
+                    Plan Solar Projects Properly - Before Construction
+                    Begins
+                </p>
+                <p>
+                    Many solar projects are designed to look efficient on
+                    paper – but once construction begins, real world
+                    challenges quickly expose weaknesses in planning.
+                </p>
+                <p>
+                    Without practical, construction-led input early in the
+                    process, projects often suffer from:
+                </p>
+                <ul>
+                    <li>
+                        Inefficient sitelayouts that slow down installation
+                    </li>
+                    <li>Poor material flow</li>
+                    <li>causing crews to wait on deliveries</li>
+                    <li>
+                        Congested access routes and delivery bottlenecks
+                    </li>
+                    <li>Misplaced compounds and storage areas</li>
+                </ul>
+                <br />
+                <p>
+                    These issues lead directly to delays, increased costs,
+                    and reduced productivity on site. FreedGen helps
+                    eliminate these risks by ensuring projects are planned
+                    with real construction conditions in mind, not just
+                    design assumptions.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 order-2 order-md-1">
+                <img aria-label="" loading="lazy" alt=""
+                    src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775813187/SpiritLevel_kqjcfi.png"
+                    class="img-fluid rounded" style="width: 100%; height: 80vh; object-fit: cover" />
             </div>
         </div>
-
-        <!-- FOOTER -->
-        <div class="container" id="footer-container">
-            <footer class="py-3 mx-auto" id="footer-container-secondary">
-                <div class="row">
-                    <div class="col-6 col-md-3 mb-3">
-                        <!-- SITE LINKS -->
-                        <p class="footer-link-heading">Site Links:</p>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a
-                                    href="index.html"
-                                    class="nav-link-footer p-0 text-body-secondary"
-                                    >Home</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    href="services.html"
-                                    class="nav-link-footer p-0 text-body-secondary"
-                                    >Services</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    href="consultancy.html"
-                                    class="nav-link-footer p-0 text-body-secondary"
-                                    >Consultancy</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    href="about.html"
-                                    class="nav-link-footer p-0 text-body-secondary"
-                                    >About</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    href="contact.html"
-                                    class="nav-link-footer p-0 text-body-secondary"
-                                    >Contact</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- SOCIAL MEDIA LINKS -->
-                    <div class="col-md-3 offset-md-6 mb-3">
-                        <ul class="list-unstyled d-flex mx-2" id="social-icons">
-                            <li class="m-3">
-                                <a
-                                    href="https://facebook.com/"
-                                    target="_blank"
-                                    rel="noopener"
-                                    aria-label="Facebook"
-                                >
-                                    <i class="fa-brands fa-facebook"></i
-                                ></a>
-                            </li>
-                            <li class="m-3">
-                                <a
-                                    href="https://twitter.com/"
-                                    target="_blank"
-                                    aria-label="Twitter"
-                                >
-                                    <i class="fa-brands fa-x-twitter"></i
-                                ></a>
-                            </li>
-                            <li class="m-3">
-                                <a
-                                    href="https://instagram.com/"
-                                    target="_blank"
-                                    aria-label="Visit our Instagram page (opens in a new tab)"
-                                >
-                                    <i class="fa-brands fa-instagram"></i
-                                ></a>
-                            </li>
+    </div>
+    <div class="container-fluid card-container mt-4 pt-5 pb-5 ps-5 pe-5">
+        <div class="row row-cols-1 row-cols-md-2 g-4 mx-auto">
+            <div class="col-10 text-center mx-auto">
+                <h2>Our Consultation Services</h2>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-effect p-2">
+                    <img src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775764158/dji_fly_20241028_134204_949_1730122932204_photo_optimized_moml6o.jpg"
+                        class="card-img-top img-fluid rounded p-3" style="width: 100%; height: 40vh; object-fit: cover"
+                        alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Site Logistics Planning</h5>
+                        <p class="card-text">
+                            We design site layouts that support smooth and
+                            efficient construction operations.
+                        </p>
+                        <p class="card-text">Includes:</p>
+                        <ul class="card-text">
+                            <li>Access route planning</li>
+                            <li>Internal haul road strategy</li>
+                            <li>Delivery routing</li>
+                            <li>Traffic management planning</li>
+                            <li>Plant access and movement</li>
                         </ul>
                     </div>
                 </div>
-                <!-- COPYRIGHT -->
-                <div
-                    class="d-flex flex-column flex-sm-row justify-content-between py-2 my-2 border-top"
-                    id="footer-container-last"
-                >
-                    <p>&copy; 2026 FreedGen, All rights reserved.</p>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-effect p-2">
+                    <img src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1776005420/materials-in-solar-panels_qdcn2t.jpg"
+                        class="card-img-top img-fluid rounded p-3" style="width: 100%; height: 40vh; object-fit: cover"
+                        alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Material Flow & Distribution Planning</h5>
+                        <p class="card-text">
+                            Efficient material movement is critical on large-scale solar projects.
+                        </p>
+                        <p class="card-text">Includes:</p>
+                        <ul class="card-text">
+                            <li>Piling materials</li>
+                            <li>Mounting structures</li>
+                            <li>Solar modules</li>
+                            <li>Cable drums</li>
+                            <li>Inverters and transformers</li>
+                            <li>General site equipment</li>
+                        </ul>
+                    </div>
                 </div>
-            </footer>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-effect p-2">
+                    <img src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775764164/dji_fly_20241031_090250_954_1730365379528_photo_optimized_tjhkif.jpg"
+                        class="card-img-top img-fluid rounded p-3" style="width: 100%; height: 40vh; object-fit: cover"
+                        alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Buildability Reviews</h5>
+                        <p class="card-text">
+                            We assess whether a design will actually work in real construction conditions.
+                        </p>
+                        <p class="card-text">Includes:</p>
+                        <ul class="card-text">
+                            <li>Terrain constraints</li>
+                            <li>Access challenges</li>
+                            <li>Machine limitations</li>
+                            <li>Installation sequencing</li>
+                            <li>Layout conflicts</li>
+                        </ul>
+                        <br>
+                        <p class="card-text">This helps prevent costly changes during construction.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-effect p-2">
+                    <img src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775764118/dji_fly_20241028_133518_903_1730122526460_photo_optimized_ymj44g.jpg"
+                        class="card-img-top img-fluid rounded p-3" style="width: 100%; height: 40vh; object-fit: cover"
+                        alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Early Risk Identification</h5>
+                        <p class="card-text">
+                            Identifying risks early protects timelines and budgets.
+                        </p>
+                        <p class="card-text">Includes:</p>
+                        <ul class="card-text">
+                            <li>Logistics bottlenecks</li>
+                            <li>Delivery conflicts</li>
+                            <li>Compound access issues</li>
+                            <li>Terrain limitations</li>
+                            <li>Health & safety risks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-10 mt-5 text-center mx-auto mb-3">
+            <h3>
+                EXPERIENCE THAT COMES FROM REAL PROJECTS
+            </h3>
+        </div>
+        <div class="col-10 text-center mx-auto mb-3">
+            <p>
+                FreedGen consultancy is built on hands-on experience in utility-scale solar construction.
+            </p>
+            <p>
+                Founder Michael Freed has supported the delivery of large-scale solar projects across Europe, including
+                300MW projects in both Spain and Poland. This experience provides practical insight into how solar sites
+                operate once construction begins - not just how they are designed.
+            </p>
         </div>
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        
-        <script src="assets/js/home.js"></script>
-        <!-- FONT AWESOME SCRIPT -->
-        <script
-            src="https://kit.fontawesome.com/f514539dfd.js"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+        <div class="row mb-3">
+            <div class="col-10 mt-5 text-center mx-auto mb-3">
+                <h3>
+                    WHO WE WORK WITH
+                </h3>
+            </div>
+            <div class="col-10 text-center mx-auto mb-3">
+                <p>
+                    FreedGen supports a wide range of stakeholders across renewable energy projects:
+                </p>
+
+                <p><b>Solar developers</b></p>
+                <p><b>EPC contractors</b></p>
+                <p><b>Principal contractors</b></p>
+                <p><b>Renewable infrastructure investors</b></p>
+                <p><b>Landowners preparing solar developments</b></p>
+
+            </div>
+            <div class="row">
+                <div class="col-10 mx-auto">
+                    <br />
+                    <a href="contact.html"
+                        class="request-button text-decoration-none shadow-contact w-50 d-block text-center mx-auto mb-3 py-3">Request a
+                        Consultation</a>
+                </div>
+            </div>
+
+
+            <!-- FOOTER -->
+            <div class="container" id="footer-container">
+                <footer class="py-3 mx-auto" id="footer-container-secondary">
+                    <div class="row">
+                        <div class="col-6 col-md-3 mb-3">
+                            <!-- SITE LINKS -->
+                            <p class="footer-link-heading">Site Links:</p>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link-footer p-0 text-body-secondary">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="services.html" class="nav-link-footer p-0 text-body-secondary">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="consultancy.html"
+                                        class="nav-link-footer p-0 text-body-secondary">Consultancy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link-footer p-0 text-body-secondary">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link-footer p-0 text-body-secondary">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- SOCIAL MEDIA LINKS -->
+                        <div class="col-md-3 offset-md-6 mb-3">
+                            <ul class="list-unstyled d-flex mx-2" id="social-icons">
+                                <li class="m-3">
+                                    <a href="https://facebook.com/" target="_blank" rel="noopener"
+                                        aria-label="Facebook">
+                                        <i class="fa-brands fa-facebook"></i></a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+                                        <i class="fa-brands fa-x-twitter"></i></a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="https://instagram.com/" target="_blank"
+                                        aria-label="Visit our Instagram page (opens in a new tab)">
+                                        <i class="fa-brands fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- COPYRIGHT -->
+                    <div class="d-flex flex-column flex-sm-row justify-content-between py-2 my-2 border-top"
+                        id="footer-container-last">
+                        <p>&copy; 2026 FreedGen, All rights reserved.</p>
+                    </div>
+                </footer>
+            </div>
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="assets/js/home.js"></script>
+            <!-- FONT AWESOME SCRIPT -->
+            <script src="https://kit.fontawesome.com/f514539dfd.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
