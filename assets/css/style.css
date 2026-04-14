@@ -349,139 +349,78 @@ ul {
   background-color: rgba(218, 215, 215, 0.656);
 }
 
-/* -------- BLOG PAGE -------- */
-.content-section,
-.blog-content-section {
-  background: rgb(255, 211, 211);
-  padding: 10px 20px;
-  border: 1px solid #dddddd;
-  border-radius: 3px;
-  margin-bottom: 20px;
+/* -------- CONTACT PAGE -------- */
+.hero-img-wrapper-contact {
+    position: relative;
+    background-image: url("https://res.cloudinary.com/dfm2di4ln/image/upload/v1776172056/dji_fly_20241111_103246_142_1731321173987_photo_optimized_ttvy2w.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 80px 0 60px;
+   
 }
 
-.blog-content-section {
-  min-height: 95%;
+.hero-text-contact {
+    position: relative;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: contactFadeUp 1.2s ease forwards;
+    animation-delay: 0.5s;
+    margin-bottom: 2rem;
+    z-index: 3;
 }
 
-.blog-photo {
-  object-fit: cover;
-  overflow: hidden;
+@keyframes contactFadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
-
-.article-title {
-  color: #333333;
-  font-size: 20px;
+/* Dark overlay */
+.overlay-contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
-
-a.article-title:hover {
-  color: #993e50;
-  text-decoration: none;
-}
-
-.pagination-buttons {
-  background-color: #6e2937;
-  color: #fafafa;
-}
-
-.pagination-buttons:hover {
-  background-color: rgb(161, 97, 102);
-  color: #fafafa;
-}
-
-/* Blog content */
-.article-content {
-  white-space: pre-line;
-}
-
-.article-metadata {
-  padding-bottom: 1px;
-}
-
-.article-metadata a:hover {
-  text-decoration: none;
-}
-
-/* -------- REGISTER PAGE -------- */
-#hint_id_username,
-#hint_id_password1,
-#hint_id_password2 {
-  color: black !important;
-}
-
-.member-text a {
-  color: rgb(160, 31, 85);
-  text-decoration: underline;
-}
-
-/* -------- POST DETAIL -------- */
-/* user profile image */
-.account-img {
-  height: 125px;
-  width: 125px;
-  object-fit: cover;
-  overflow: hidden;
-}
-
-.blog-post-image {
-  object-fit: cover;
-  overflow: hidden;
-  width: 60vh;
-  height: 100%;
-}
-
-.author-text {
-  color: blue;
-}
-
-.back-text {
-  background-color: #6e2937;
-}
-
-.back-text a {
-  color: white;
-}
-
-.back-text a:hover {
-  color: #6e2937;
-}
-
-.back-text:hover {
-  background-color: #f3baba;
-}
-
-.blog-content-text {
-  max-width: 100%;
+.hero-img-wrapper-contact .row,
+.hero-img-wrapper-contact .hero-text-contact,
+.hero-img-wrapper-contact #contact-form {
+    position: relative;
+    z-index: 2;
 }
 
 
-
-/* Hides form until button is clicked */
-#update-form {
-  display: none;
+/* Optional: make form readable */
+#contact-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
 }
 
-#update-btn:hover {
-  background-color: rgb(146, 61, 67);
-  color: #fafafa;
+/* -------- ABOUT PAGE -------- */
+
+.img-half-md {
+  width: 100% !important;
 }
 
-/* Button to submit changes */
-.submit-btn:hover {
-  background-color: rgb(161, 97, 102);
-  color: #fafafa;
+@media (min-width: 768px) {
+  .img-half-md {
+    width: 50% !important;
+  }
 }
 
-.submit-btn {
-  background-color: rgb(146, 61, 67);
-  color: #fafafa;
-}
 
 /* -------- FOOTER -------- */
 #footer-container {
   background-color: #009C14;
   color: #fff;
   max-width: 100%;
-  margin-top: 30px;
+
 }
 
 #footer-container-secondary {
