@@ -1,424 +1,323 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta
-            name="description"
-            content="A collaborative spell submission blog."
-        />
-        <!-- Bootstrap CSS -->
 
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-            crossorigin="anonymous"
-        />
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"
-        ></script>
-        <!--Favicon-->
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="static/images/apple-touch-icon.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="static/images/favicon-32x32.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="static/images/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-            rel="stylesheet"
-        />
-        <!-- Custom CSS-->
-        <link rel="stylesheet" href="assets/css/style.css" />
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="A collaborative spell submission blog." />
+    <!-- Bootstrap CSS -->
 
-        <title>FreedGen</title>
-    </head>
-    <!-- SITE BODY -->
-    <body>
-        <header class="site-header">
-            <!-- NAV BAR -->
-            <nav id="navigation" class="navbar navbar-expand-md sticky-top">
-                <div class="container">
-                    <!-- LOGO -->
-                    <a class="navbar-brand me-4" href="index.html">
-                        <img
-                            class="logo-img"
-                            src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775483768/FreedGenLogo_hlcqdc.png"
-                        />
-                    </a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarToggle"
-                    >
-                        <span style="font-size: 2rem; color: #28a745">☰</span>
-                    </button>
-                    <!-- LEFT SIDE NAV -->
-                    <div class="collapse navbar-collapse" id="navbarToggle">
-                        <div class="navbar-nav me-auto h5">
-                            <a
-                                class="nav-item nav-link current-page"
-                                href="services.html"
-                                >Services</a
-                            >
-                            <a class="nav-item nav-link" href="consultancy.html"
-                                >Consultancy</a
-                            >
-                            <a class="nav-item nav-link" href="development.html"
-                                >Development</a
-                            >
-                            <a class="nav-item nav-link" href="about.html"
-                                >About</a
-                            >
-                        </div>
-                        <!-- RIGHT SIDE NAV -->
-                        <div class="navbar-nav">
-                            <a
-                                href="contact.html"
-                                class="contact-button text-decoration-none shadow-contact rounded h5 mx-auto my-auto"
-                                >Contact</a
-                            >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet" />
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>FreedGen</title>
+</head>
+<!-- SITE BODY -->
+
+<body>
+    <header class="site-header">
+        <!-- NAV BAR -->
+        <nav id="navigation" class="navbar navbar-expand-md sticky-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a class="navbar-brand me-4" href="index.html">
+                    <img class="logo-img"
+                        src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775483768/FreedGenLogo_hlcqdc.png" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+                    <span style="font-size: 2rem; color: #28a745">☰</span>
+                </button>
+                <!-- LEFT SIDE NAV -->
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <div class="navbar-nav me-auto h5">
+                        <a class="nav-item nav-link" href="robotics.html">Robotics</a>
+                        <a class="nav-item nav-link current-page" href="services.html">Services</a>
+                        <a class="nav-item nav-link" href="consultancy.html">Consultancy</a>
+                        <a class="nav-item nav-link" href="development.html">Training & Development</a>
+                        <a class="nav-item nav-link" href="about.html">About</a>
+                    </div>
+                    <!-- RIGHT SIDE NAV -->
+                    <div class="navbar-nav">
+                        <a href="contact.html"
+                            class="contact-button text-decoration-none shadow-contact rounded h5 mx-auto my-auto">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row g-0 mb-4">
+            <div class="col hero-img-wrapper">
+                <img aria-label="solar panel field" loading="lazy" alt=""
+                    src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775764184/dji_fly_20241102_093346_70_1730540066055_photo_optimized_h81oel.jpg"
+                    style="width: 100%; height: 40vh; object-fit: cover" />
+                <div class="overlay-2"></div>
+                <div class="col-10 text-center mx-auto hero-text">
+                    <h2>Our Services</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-10 text-center mx-auto">
+            <h3>Independent Oversight for Renewable Energy Projects</h3>
+            <br />
+            <p>
+                Our services are designed to give developers, EPC
+                contractors, and investors complete confidence during
+                construction. We combine real site experience with modern
+                technology to ensure projects are delivered correctly,
+                efficiently, and transparently.
+            </p>
+        </div>
+    </div>
+
+    <!-- FLIP CARDS WITH ABOUT INFOR BEHIND -->
+    <div class="row">
+        <div class="col-10 mx-auto">
+            <div class="row mb-4">
+                <div class="col-md-4 flip-card-outer mb-3 mt-4">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <!-- FLIP CARD 1 -->
+                            <div class="flip-card-front">
+                                <img class="rounded"
+                                    src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1776103480/Untitled-5_gk8jbz.png"
+                                    alt="Avatar" />
+                            </div>
+                            <!-- TEXT ON BACK OF CARD -->
+                            <div class="flip-card-back align-content-center mx-auto">
+                                <h5>Services We Offer:</h5>
+                                <p>
+                                    We help design solar projects that are
+                                    practical, efficient, and ready for
+                                    construction before work begins.
+                                </p>
+                                <br />
+                                <ul>
+                                    <li>GPS mapping</li>
+                                    <li>Site logistics planning</li>
+                                    <li>Compound layout design</li>
+                                    <li>Material flow strategy</li>
+                                    <li>Buildability reviews</li>
+                                    <li>Risk identification</li>
+                                </ul>
+                                <br />
+                                <p>
+                                    Avoid costly delays before construction
+                                    even starts.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <div class="container-fluid">
-            <div class="row g-0 mb-4">
-                <div class="col hero-img-wrapper">
-                    <img
-                        aria-label="solar panel field"
-                        loading="lazy"
-                        alt=""
-                        src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1775764184/dji_fly_20241102_093346_70_1730540066055_photo_optimized_h81oel.jpg"
-                        style="width: 100%; height: 40vh; object-fit: cover"
-                    />
-                    <div class="overlay-2"></div>
-                    <div class="col-10 text-center mx-auto hero-text">
-                        <h2>Our Services</h2>
+
+                <div class="col-md-4 flip-card-outer mb-3 mt-4">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <!-- FLIP CARD 2 -->
+                            <div class="flip-card-front">
+                                <img class="rounded"
+                                    src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1776103482/Untitled-6_xndpb9.png"
+                                    alt="Avatar" />
+                            </div>
+                            <!-- TEXT ON BACK OF CARD -->
+                            <div class="flip-card-back align-content-center mx-auto">
+                                <h5>Why FreedGen?</h5>
+                                <p>
+                                    FreedGen combines deep industry
+                                    experience with modern technology to
+                                    deliver clear, reliable oversight across
+                                    renewable energy projects. We have:
+                                </p>
+                                <br />
+                                <ul>
+                                    <li>
+                                        15+ years renewable construction
+                                        experience
+                                    </li>
+                                    <li>Nearly 1GW of solar delivered</li>
+                                    <li>
+                                        Independent and unbiased reporting
+                                    </li>
+                                    <li>Real on-site knowledge</li>
+                                    <li>Drone + QA combined capability</li>
+                                </ul>
+                                <br />
+                                <p>
+                                    Built from real construction experience
+                                    - not theory.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 flip-card-outer mb-3 mt-4">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <!-- FLIP CARD 3 -->
+                            <div class="flip-card-front">
+                                <img class="rounded"
+                                    src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1776103483/Untitled-7_h6jy7y.png"
+                                    alt="Avatar" />
+                            </div>
+                            <!-- TEXT ON BACK OF CARD -->
+                            <div class="flip-card-back align-content-center mx-auto">
+                                <h5>Who We Work With:</h5>
+                                <p>
+                                    We work with a wide range of
+                                    stakeholders across the renewable energy
+                                    sector, including:
+                                </p>
+                                <br />
+                                <ul>
+                                    <li>Solar developers</li>
+                                    <li>EPC contractors</li>
+                                    <li>Principal contractors</li>
+                                    <li>Investors</li>
+                                    <li>Asset owners</li>
+                                </ul>
+                                <br />
+                                <p>
+                                    Whether supporting early-stage planning
+                                    or live construction projects, FreedGen
+                                    provides the independent oversight and
+                                    expertise needed to deliver projects
+                                    with confidence.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="row">
+    <div class="container-fluid">
+        <div class="row mb-4">
             <div class="col-10 text-center mx-auto">
-                <h3>Independent Oversight for Renewable Energy Projects</h3>
+                <h3>
+                    A complete oversight system from planning through to
+                    delivery:
+                </h3>
                 <br />
                 <p>
-                    Our services are designed to give developers, EPC
-                    contractors, and investors complete confidence during
-                    construction. We combine real site experience with modern
-                    technology to ensure projects are delivered correctly,
-                    efficiently, and transparently.
+                    FreedGen delivers a fully integrated oversight approach
+                    that supports renewable energy projects at every stage
+                    of construction. From early planning and logistics
+                    design through to on-site auditing, drone monitoring,
+                    and detailed reporting, our services work together to
+                    provide complete visibility and control. This ensures
+                    issues are identified early, progress is tracked
+                    accurately, and all stakeholders remain aligned -
+                    resulting in projects that are delivered efficiently,
+                    transparently, and to the highest standards.
                 </p>
+                <br />
             </div>
-        </div>
-
-        <!-- FLIP CARDS WITH ABOUT INFOR BEHIND -->
-        <div class="row">
-            <div class="col-10 mx-auto">
-                <div class="row mb-4">
-                    <div class="col-md-4 flip-card-outer mb-3 mt-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <!-- FLIP CARD 1 -->
-                                <div class="flip-card-front">
-                                    <img
-                                        class="rounded"
-                                        src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1776103480/Untitled-5_gk8jbz.png"
-                                        alt="Avatar"
-                                    />
-                                </div>
-                                <!-- TEXT ON BACK OF CARD -->
-                                <div
-                                    class="flip-card-back align-content-center mx-auto"
-                                >
-                                    <h5>Services We Offer:</h5>
-                                    <p>
-                                        We help design solar projects that are
-                                        practical, efficient, and ready for
-                                        construction before work begins.
-                                    </p>
-                                    <br />
-                                    <ul>
-                                        <li>GPS mapping</li>
-                                        <li>Site logistics planning</li>
-                                        <li>Compound layout design</li>
-                                        <li>Material flow strategy</li>
-                                        <li>Buildability reviews</li>
-                                        <li>Risk identification</li>
-                                    </ul>
-                                    <br />
-                                    <p>
-                                        Avoid costly delays before construction
-                                        even starts.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 flip-card-outer mb-3 mt-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <!-- FLIP CARD 2 -->
-                                <div class="flip-card-front">
-                                    <img
-                                        class="rounded"
-                                        src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1776103482/Untitled-6_xndpb9.png"
-                                        alt="Avatar"
-                                    />
-                                </div>
-                                <!-- TEXT ON BACK OF CARD -->
-                                <div
-                                    class="flip-card-back align-content-center mx-auto"
-                                >
-                                    <h5>Why FreedGen?</h5>
-                                    <p>
-                                        FreedGen combines deep industry
-                                        experience with modern technology to
-                                        deliver clear, reliable oversight across
-                                        renewable energy projects. We have:
-                                    </p>
-                                    <br />
-                                    <ul>
-                                        <li>
-                                            15+ years renewable construction
-                                            experience
-                                        </li>
-                                        <li>Nearly 1GW of solar delivered</li>
-                                        <li>
-                                            Independent and unbiased reporting
-                                        </li>
-                                        <li>Real on-site knowledge</li>
-                                        <li>Drone + QA combined capability</li>
-                                    </ul>
-                                    <br />
-                                    <p>
-                                        Built from real construction experience
-                                        - not theory.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 flip-card-outer mb-3 mt-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <!-- FLIP CARD 3 -->
-                                <div class="flip-card-front">
-                                    <img
-                                        class="rounded"
-                                        src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1776103483/Untitled-7_h6jy7y.png"
-                                        alt="Avatar"
-                                    />
-                                </div>
-                                <!-- TEXT ON BACK OF CARD -->
-                                <div
-                                    class="flip-card-back align-content-center mx-auto"
-                                >
-                                    <h5>Who We Work With:</h5>
-                                    <p>
-                                        We work with a wide range of
-                                        stakeholders across the renewable energy
-                                        sector, including:
-                                    </p>
-                                    <br />
-                                    <ul>
-                                        <li>Solar developers</li>
-                                        <li>EPC contractors</li>
-                                        <li>Principal contractors</li>
-                                        <li>Investors</li>
-                                        <li>Asset owners</li>
-                                    </ul>
-                                    <br />
-                                    <p>
-                                        Whether supporting early-stage planning
-                                        or live construction projects, FreedGen
-                                        provides the independent oversight and
-                                        expertise needed to deliver projects
-                                        with confidence.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col">
+                    <img aria-label="solar panel field" loading="lazy" alt=""
+                        src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1776011693/Untitled-2_24_cpos3h.png"
+                        style="width: 100%; height: auto; object-fit: cover" />
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container-fluid">
-            <div class="row mb-4">
-                <div class="col-10 text-center mx-auto">
-                    <h3>
-                        A complete oversight system from planning through to
-                        delivery:
-                    </h3>
-                    <br />
-                    <p>
-                        FreedGen delivers a fully integrated oversight approach
-                        that supports renewable energy projects at every stage
-                        of construction. From early planning and logistics
-                        design through to on-site auditing, drone monitoring,
-                        and detailed reporting, our services work together to
-                        provide complete visibility and control. This ensures
-                        issues are identified early, progress is tracked
-                        accurately, and all stakeholders remain aligned -
-                        resulting in projects that are delivered efficiently,
-                        transparently, and to the highest standards.
-                    </p>
-                    <br />
+    <div class="col-10 mx-auto mb-4">
+        <a href="contact.html"
+            class="request-button text-decoration-none shadow-effect rounded w-50 d-block text-center mx-auto mb-3 py-3">Request
+            a Consultation</a>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container" id="footer-container">
+        <footer class="py-3 mx-auto" id="footer-container-secondary">
+            <div class="row">
+                <div class="col-6 col-md-3 mb-3">
+                    <!-- SITE LINKS -->
+                    <p class="footer-link-heading">Site Links:</p>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link-footer p-0 text-body-secondary">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="robotics.html" class="nav-link-footer p-0 text-body-secondary">Robotics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services.html" class="nav-link-footer p-0 text-body-secondary">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="consultancy.html" class="nav-link-footer p-0 text-body-secondary">Consultancy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="development.html" class="nav-link-footer p-0 text-body-secondary">Training and Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link-footer p-0 text-body-secondary">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link-footer p-0 text-body-secondary">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <img
-                            aria-label="solar panel field"
-                            loading="lazy"
-                            alt=""
-                            src="https://res.cloudinary.com/dfm2di4ln/image/upload/v1776011693/Untitled-2_24_cpos3h.png"
-                            style="width: 100%; height: auto; object-fit: cover"
-                        />
-                    </div>
+
+                <!-- SOCIAL MEDIA LINKS -->
+                <div class="col-md-3 offset-md-6 mb-3">
+                    <ul class="list-unstyled d-flex mx-2" id="social-icons">
+                        <li class="m-3">
+                            <a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+                                <i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li class="m-3">
+                            <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+                                <i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li class="m-3">
+                            <a href="https://instagram.com/" target="_blank"
+                                aria-label="Visit our Instagram page (opens in a new tab)">
+                                <i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+            <!-- COPYRIGHT -->
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-2 my-2 border-top"
+                id="footer-container-last">
+                <p>&copy; 2026 FreedGen, All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
 
-        <div class="col-10 mx-auto mb-4">
-            <a
-                href="contact.html"
-                class="request-button text-decoration-none shadow-effect rounded w-50 d-block text-center mx-auto mb-3 py-3"
-                >Request a Consultation</a
-            >
-        </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-        <!-- FOOTER -->
-        <div class="container" id="footer-container">
-            <footer class="py-3 mx-auto" id="footer-container-secondary">
-                <div class="row">
-                    <div class="col-6 col-md-3 mb-3">
-                        <!-- SITE LINKS -->
-                        <p class="footer-link-heading">Site Links:</p>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a
-                                    href="index.html"
-                                    class="nav-link-footer p-0 text-body-secondary"
-                                    >Home</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    href="services.html"
-                                    class="nav-link-footer p-0 text-body-secondary"
-                                    >Services</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    href="consultancy.html"
-                                    class="nav-link-footer p-0 text-body-secondary"
-                                    >Consultancy</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    href="about.html"
-                                    class="nav-link-footer p-0 text-body-secondary"
-                                    >About</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    href="contact.html"
-                                    class="nav-link-footer p-0 text-body-secondary"
-                                    >Contact</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
+    <script src="assets/js/home.js"></script>
+    <!-- FONT AWESOME SCRIPT -->
+    <script src="https://kit.fontawesome.com/f514539dfd.js" crossorigin="anonymous"></script>
+</body>
 
-                    <!-- SOCIAL MEDIA LINKS -->
-                    <div class="col-md-3 offset-md-6 mb-3">
-                        <ul class="list-unstyled d-flex mx-2" id="social-icons">
-                            <li class="m-3">
-                                <a
-                                    href="https://facebook.com/"
-                                    target="_blank"
-                                    rel="noopener"
-                                    aria-label="Facebook"
-                                >
-                                    <i class="fa-brands fa-facebook"></i
-                                ></a>
-                            </li>
-                            <li class="m-3">
-                                <a
-                                    href="https://twitter.com/"
-                                    target="_blank"
-                                    aria-label="Twitter"
-                                >
-                                    <i class="fa-brands fa-x-twitter"></i
-                                ></a>
-                            </li>
-                            <li class="m-3">
-                                <a
-                                    href="https://instagram.com/"
-                                    target="_blank"
-                                    aria-label="Visit our Instagram page (opens in a new tab)"
-                                >
-                                    <i class="fa-brands fa-instagram"></i
-                                ></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- COPYRIGHT -->
-                <div
-                    class="d-flex flex-column flex-sm-row justify-content-between py-2 my-2 border-top"
-                    id="footer-container-last"
-                >
-                    <p>&copy; 2026 FreedGen, All rights reserved.</p>
-                </div>
-            </footer>
-        </div>
-
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-        <script src="assets/js/home.js"></script>
-        <!-- FONT AWESOME SCRIPT -->
-        <script
-            src="https://kit.fontawesome.com/f514539dfd.js"
-            crossorigin="anonymous"
-        ></script>
-    </body>
 </html>
