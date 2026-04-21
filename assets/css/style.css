@@ -349,6 +349,11 @@ ul {
   background-color: rgba(218, 215, 215, 0.656);
 }
 
+.text-green {
+  background-color: #009C14;
+  color: #fafafa;
+}
+
 /* -------- CONTACT PAGE -------- */
 .hero-img-wrapper-contact {
     position: relative;
