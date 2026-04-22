@@ -80,7 +80,13 @@
 
 
                         <form id="contact-form" action="mail.php" method="POST">
-
+                            <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="29596c7e-4324-4cbe-b99a-c6bc69d57e7b">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
                             <!-- Name input -->
                             <div data-mdb-input-init class="form-outline">
                                 <input type="text" id="name" name="name" class="form-control" placeholder="Your name"
@@ -183,7 +189,7 @@
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <script src="assets/js/home.js"></script>
+    <script src="assets/js/contact.js"></script>
     <!-- FONT AWESOME SCRIPT -->
     <script src="https://kit.fontawesome.com/f514539dfd.js" crossorigin="anonymous"></script>
 </body>
