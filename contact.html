@@ -70,7 +70,6 @@
     <div class="container-fluid p-0">
         <div class="row g-0">
             <div class="col hero-img-wrapper-contact">
-                
                 <div class="overlay-contact"></div>
                 <div class="col-10 mx-auto hero-text-contact">
                     <h2>Contact Us</h2>
@@ -78,51 +77,52 @@
                 <div class="row">
                     <div class="col-10 col-md-6 mx-auto">
 
+                        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
 
-                        <form id="contact-form" action="mail.php" method="POST">
-                            <form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="29596c7e-4324-4cbe-b99a-c6bc69d57e7b">
-  <input type="text" name="name" required>
-  <input type="email" name="email" required>
-  <textarea name="message" required></textarea>
-  <button type="submit">Submit</button>
-</form>
-                            <!-- Name input -->
-                            <div data-mdb-input-init class="form-outline">
-                                <input type="text" id="name" name="name" class="form-control" placeholder="Your name"
-                                    required />
-                                <label class="form-label" for="name"></label>
-                            </div>
+                            <input type="hidden" name="access_key" value="29596c7e-4324-4cbe-b99a-c6bc69d57e7b">
+                            <!-- Required: if submitting without Javascript 
+         (because by default web3form outputs json) -->
 
-                            <!-- Email input -->
-                            <div data-mdb-input-init class="form-outline mb-4">
-                                <input type="email" id="email" name="email" class="form-control"
-                                    placeholder="Email address" required />
+                            <!-- If javascript, use "window.location.hash" for redirects -->
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success">
 
-                            </div>
+                            <!-- Optional: But Recommended: To Prevent SPAM Submission. 
+         Make sure its hidden by default -->
+                            <input type="checkbox" name="botcheck" id="" style="display: none;">
 
-                            <!-- Subject input -->
-                            <div data-mdb-input-init class="form-outline mb-4">
-                                <input type="text" id="subject" name="subject" class="form-control"
-                                    placeholder="Subject" required />
 
-                            </div>
+                            <div class="row g-3">
 
-                            <!-- Message input -->
-                            <div data-mdb-input-init class="form-outline mb-4">
-                                <textarea class="form-control" id="message" name="message" rows="4"
-                                    placeholder="Type your message here" required></textarea>
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name"
+                                        required>
+                                </div>
 
-                            </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="email" class="form-control" placeholder="Your Email"
+                                        required>
+                                </div>
 
-                            <!-- Submit button -->
-                             <div class="text-center">
-                            <button data-mdb-button-init id="submit-form" type="submit" data-mdb-ripple-init
-                                class="btn contact-button">
-                                Send
-                            </button>
-                            </div>
+                                <div class="col-12">
+                                    <input type="text" name="subject" class="form-control" placeholder="Subject"
+                                        required>
+                                </div>
+
+                                <div class="col-12">
+                                    <textarea name="message" class="form-control" rows="5" placeholder="Your Message"
+                                        required></textarea>
+                                </div>
+
+                                <div class="col-12 text-center">
+                                    <div class="h-captcha" data-captcha="true"></div>
+                                </div>
+
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-success px-5 py-2">Send Message</button>
+                                </div>
+
                         </form>
+
                     </div>
                 </div>
             </div>
@@ -149,7 +149,8 @@
                             <a href="consultancy.html" class="nav-link-footer p-0 text-body-secondary">Consultancy</a>
                         </li>
                         <li class="nav-item">
-                            <a href="development.html" class="nav-link-footer p-0 text-body-secondary">Training and Development</a>
+                            <a href="development.html" class="nav-link-footer p-0 text-body-secondary">Training and
+                                Development</a>
                         </li>
                         <li class="nav-item">
                             <a href="about.html" class="nav-link-footer p-0 text-body-secondary">About</a>
@@ -187,11 +188,10 @@
         </footer>
     </div>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-    <script src="assets/js/contact.js"></script>
     <!-- FONT AWESOME SCRIPT -->
     <script src="https://kit.fontawesome.com/f514539dfd.js" crossorigin="anonymous"></script>
+
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 
 </html>
