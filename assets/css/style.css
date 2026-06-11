@@ -11,6 +11,9 @@ body {
 .current-page {
   color: #009C14 !important;
 }
+.freedgen-green-text {
+  color: #009C14;
+}
 
 .shadow-effect {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -292,6 +295,21 @@ ul {
 
 /* -------- ROBOTICS PAGE -------- */
 
+.robotics-section {
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.feature-box {
+    background: #f8f9fa;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
 .scroll {
     background: white;
     display: flex;
